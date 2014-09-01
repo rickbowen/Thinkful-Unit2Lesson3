@@ -11,6 +11,7 @@
 		1D91596119B4DB1600169828 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91596019B4DB1600169828 /* Car.swift */; };
 		1D91596319B4DBB100169828 /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91596219B4DBB100169828 /* TurboCar.swift */; };
 		1D91596519B4E12A00169828 /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91596419B4E12A00169828 /* HybridCar.swift */; };
+		1D91596B19B5168A00169828 /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91596A19B5168A00169828 /* PickupTruck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		1D91596019B4DB1600169828 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		1D91596219B4DBB100169828 /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
 		1D91596419B4E12A00169828 /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		1D91596A19B5168A00169828 /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				1D91595919B4DABE00169828 /* main.swift */,
+				1D91596019B4DB1600169828 /* Car.swift */,
 				1D91596419B4E12A00169828 /* HybridCar.swift */,
 				1D91596219B4DBB100169828 /* TurboCar.swift */,
-				1D91596019B4DB1600169828 /* Car.swift */,
+				1D91596A19B5168A00169828 /* PickupTruck.swift */,
 			);
 			path = Unit2Lesson3;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			files = (
 				1D91596119B4DB1600169828 /* Car.swift in Sources */,
 				1D91595A19B4DABE00169828 /* main.swift in Sources */,
+				1D91596B19B5168A00169828 /* PickupTruck.swift in Sources */,
 				1D91596519B4E12A00169828 /* HybridCar.swift in Sources */,
 				1D91596319B4DBB100169828 /* TurboCar.swift in Sources */,
 			);
@@ -245,6 +249,7 @@
 				1D91595F19B4DABE00169828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
